@@ -1,0 +1,16 @@
+{% extends 'arts/layout.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container bg-success">
+   <h2>{{title}}<h2>
+</div> 
+<ul class="collection">
+  {% for art in arts %}
+  <h1>{{art.author}}</h1>
+  <div class="container  bg-success">
+   <img  class="card-img-top" src="{{ art.photo_main.url }}" style = "height:200px;width:200px ;text-align: center; display: table-cell vertical-align: middle; ">
+   </div>
+  {% endfor %}
+</ul>
+{% endblock %}
