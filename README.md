@@ -1,8 +1,11 @@
 # csi_django_workshop
 
-# STEPS 
-pip install virtualenvwrapper-win (for windows)
 
+
+
+
+### STEPS 
+1) pip install virtualenvwrapper-win (for windows)
 mkvirtualenv (any_name)
 
 NOW YOU ARE IN VIRTUAL ENVIRONMENT
